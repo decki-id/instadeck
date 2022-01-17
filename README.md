@@ -11,11 +11,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Deckiherdiawans Portfolio
+## About InstaDeck
 
-A repository of personal website that contains web applications built with the Laravel framework.
-<br>By far, there are three web applications.
-
-- [Students](https://deckidecki.com/students), a basic CRUD (Create Read Update Delete) system.
-- [InstaDeck](https://deckidecki.com/instadeck), an Instagram clone website with CRUD feature and Instagram API that shows a page of creator's Instagram account.
-- [SisDeck](https://deckidecki.com/sisdeck), a Student Information System website (still in development).
+InstaDeck is an Instagram clone website created by Decki Herdiawan Soepandi as a project portfolio. InstaDeck includes CRUD (Create, Read, Update, Delete) features such as post a picture, browse all posts and profiles on InstaDeck, search for a specific user account, see a user account profile, update profile, and follow a user account. InstaDeck built with the Laravel framework and Vue Js example component. InstaDeck also built with an API link to open the real Instagram account of the creator for presentation purposes only.<br>
+Thank you for visiting this project.<br>
+See more project portfolio created by Decki Herdiawan Soepandi [here](https://deckidecki.com/portfolios).
