@@ -1,0 +1,22 @@
+.sidebar .nav-toggler .fas,
+.sidebar .nav li a:hover,
+.sidebar .nav li a.active,
+body.dark .sidebar .nav li a:hover,
+body.dark .sidebar .nav li a.active,
+.about .about-content .about-text span,
+.about .about-content .edex .timeline .timeline-title span,
+.style-switcher .switcher-toggle .fas {
+    color: gold;
+}
+
+.sidebar .logo #decki::before,
+.sidebar .logo #decki::after,
+.sidebar .logo #herdiawans::before,
+.sidebar .logo #herdiawans::after,
+.home .intro .social-links a,
+.section-title h2::before,
+.section-title h2::after,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .timeline .circle-dot {
+    background-color: gold;
+}
