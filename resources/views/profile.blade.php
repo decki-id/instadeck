@@ -169,16 +169,16 @@
                                         </div>
                                     @endif
                                     @if($posts[$a]['media_type'] == 'IMAGE' || $posts[$a]['media_type'] == 'CAROUSEL_ALBUM')
-                                        <div class="dhs_posts w-100 h-100">
-                                            <img src="{{ $posts[$a]['media_url'] }}" class="w-100 h-100">
+                                        <div class="dhs_posts w-100 h-90">
+                                            <img src="{{ $posts[$a]['media_url'] }}" class="w-100 h-90">
                                         </div>
                                         <div class="dhs_posts-info text-white d-flex justify-content-center align-items-center">
                                             <div class="mr-3"><i class="fas fa-fw fa-heart mr-1"></i>{{ $posts[$a]['like_count'] }}</div>
                                             <div class="ml-3"><i class="fas fa-fw fa-comment mr-1"></i>{{ $posts[$a]['comments_count'] }}</div>
                                         </div>
                                     @else
-                                        <div class="dhs_posts w-100 h-100">
-                                            <video class="w-100 h-100" preload="auto" autobuffer playsinline controls>
+                                        <div class="dhs_posts w-100 h-auto">
+                                            <video class="w-100 h-auto" preload="auto" autobuffer playsinline controls>
                                                 <source src="{{ $posts[$a]['media_url'] }}">
                                             </video>
                                         </div>
