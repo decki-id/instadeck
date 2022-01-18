@@ -30,7 +30,7 @@ class InstadeckRegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/instadeck';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -44,7 +44,7 @@ class InstadeckRegisterController extends Controller
 
     public function showRegistrationForm()
     {
-        return view('/instadeck/auth/register');
+        return view('/auth/register');
     }
 
     /**

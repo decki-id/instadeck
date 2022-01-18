@@ -53,7 +53,7 @@
                                     {{ __('Create an Account') }}
                                 </a>
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    <a class="btn btn-link" href="{{ route('instadeck.password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
