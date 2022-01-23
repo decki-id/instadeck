@@ -7,7 +7,7 @@
 
     <title>@yield('title')</title>
 
-    <link rel="icon" type="image/jpg" href="{{ url('assets/images/DeckiRevota.jpg') }}">
+    <link rel="icon" type="image/jpg" href="{{ url('storage/instagram.png') }}">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

@@ -18,7 +18,6 @@ class InstadeckPostController extends Controller
         $users = auth()->user()->following()->pluck('instadeck_profiles.user_id');
 
         $posts = InstadeckPost::whereIn('user_id', $users)->with('user')->orderBy('created_at', 'DESC')->get(); // or paginate(number) to paginate
-        // dd($posts);
 
         return view('/index', compact('posts'));
     }
