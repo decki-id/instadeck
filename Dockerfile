@@ -22,7 +22,6 @@ sed -i 's|;extension=curl|extension=curl|g' /etc/php8/php.ini && \
 sed -i 's|;extension=fileinfo|extension=fileinfo|g' /etc/php8/php.ini && \
 sed -i 's|;extension=gettext|extension=gettext|g' /etc/php8/php.ini && \
 sed -i 's|;extension=mbstring|extension=mbstring|g' /etc/php8/php.ini && \
-sed -i 's|;extension=exif|extension=exif|g' /etc/php8/php.ini && \
 sed -i 's|;extension=mysqli|extension=mysqli|g' /etc/php8/php.ini && \
 sed -i 's|;extension=pdo_mysql|extension=pdo_mysql|g' /etc/php8/php.ini
 
