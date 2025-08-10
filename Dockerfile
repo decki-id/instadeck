@@ -8,7 +8,9 @@ COPY --chown=root:root . .
 
 RUN chmod -R 755 .
 
-RUN apk add --no-cache unzip docker-php-ext-install mysqli pdo_mysql tzdata
+RUN apk add --no-cache unzip tzdata
+
+RUN docker-php-ext-install mysqli pdo_mysql
 
 RUN ln -sf /usr/share/zoneinfo/$TZ /etc/localtime
 
