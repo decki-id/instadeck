@@ -17,13 +17,13 @@ RUN unzip -o vendor.zip -d . && unzip -o node_modules.zip -d .
 RUN php artisan storage:link
 
 RUN \
-sed -i 's|;extension=bz2|extension=bz2|g' /etc/php8/php.ini && \
-sed -i 's|;extension=curl|extension=curl|g' /etc/php8/php.ini && \
-sed -i 's|;extension=fileinfo|extension=fileinfo|g' /etc/php8/php.ini && \
-sed -i 's|;extension=gettext|extension=gettext|g' /etc/php8/php.ini && \
-sed -i 's|;extension=mbstring|extension=mbstring|g' /etc/php8/php.ini && \
-sed -i 's|;extension=mysqli|extension=mysqli|g' /etc/php8/php.ini && \
-sed -i 's|;extension=pdo_mysql|extension=pdo_mysql|g' /etc/php8/php.ini
+echo "extension=bz2" >> /etc/php8/php.ini && \
+echo "extension=curl" >> /etc/php8/php.ini && \
+echo "extension=fileinfo" >> /etc/php8/php.ini && \
+echo "extension=gettext" >> /etc/php8/php.ini && \
+echo "extension=mbstring" >> /etc/php8/php.ini && \
+echo "extension=mysqli" >> /etc/php8/php.ini && \
+echo "extension=pdo_mysql" >> /etc/php8/php.ini
 
 EXPOSE 8000
 
