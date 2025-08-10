@@ -57,5 +57,5 @@
     </div>
 </div>
 
-<script>window.onload = function () { document.querySelector("#title").focus(); }</script>
+<!-- <script>window.onload = function () { document.querySelector("#title").focus(); }</script> -->
 @endsection

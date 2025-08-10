@@ -66,5 +66,5 @@
     </div>
 </div>
 
-<script>window.onload = function () { document.querySelector("#email").focus(); }</script>
+<!-- <script>window.onload = function () { document.querySelector("#email").focus(); }</script> -->
 @endsection

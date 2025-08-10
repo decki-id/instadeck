@@ -34,5 +34,5 @@
     </div>
 </div>
 
-<script>window.onload = function () { document.querySelector("#image").focus(); }</script>
+<!-- <script>window.onload = function () { document.querySelector("#image").focus(); }</script> -->
 @endsection

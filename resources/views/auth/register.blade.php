@@ -87,5 +87,5 @@
     </div>
 </div>
 
-<script>window.onload = function () { document.querySelector("#username").focus(); }</script>
+<!-- <script>window.onload = function () { document.querySelector("#username").focus(); }</script> -->
 @endsection
