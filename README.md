@@ -15,4 +15,4 @@
 
 InstaDeck is an Instagram clone website created by Decki Herdiawan Soepandi as a project portfolio. InstaDeck includes CRUD (Create, Read, Update, Delete) features such as post a picture, browse all posts and profiles on InstaDeck, search for a specific user account, see a user account profile, update profile, and follow a user account. InstaDeck built with the Laravel framework and Vue Js example component. InstaDeck also built with an API link to open the real Instagram account of the creator for presentation purposes only.<br>
 Thank you for visiting this project.<br>
-See more project portfolio created by Decki Herdiawan Soepandi [here](https://deckidecki.com/portfolios).
+See more project portfolios created by Decki Herdiawan Soepandi [here](https://decki.id).
