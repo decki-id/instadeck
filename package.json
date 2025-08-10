@@ -1,5 +1,23 @@
 {
+    "name": "instadeck",
+    "version": "1.0.0",
+    "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
+    "author": "decki-id",
+    "main": "webpack.mix.js",
     "private": true,
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/decki-id/instadeck.git"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/decki-id/instadeck/issues"
+    },
+    "homepage": "https://github.com/decki-id/instadeck#readme",
     "scripts": {
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -22,23 +40,5 @@
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
-    },
-    "name": "deckiherdiawans.com",
-    "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
-    "version": "1.0.0",
-    "main": "webpack.mix.js",
-    "directories": {
-        "test": "tests"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/deckiherdiawans/deckiherdiawans.com.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/deckiherdiawans/deckiherdiawans.com/issues"
-    },
-    "homepage": "https://github.com/deckiherdiawans/deckiherdiawans.com#readme"
+    }
 }
