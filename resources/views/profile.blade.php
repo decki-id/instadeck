@@ -28,7 +28,7 @@
                     </div>
                     <div class="pt-2 font-weight-bold">{{ $user->profile->title }}</div>
                     <div>{{ $user->profile->description }}</div>
-                    <div><a href="https://{{ $user->profile->url }}" class="dhs_link">{{ $user->profile->url }}</a></div>
+                    <div><a href="{{ $user->profile->url }}" target="_blank" class="dhs_link">{{ $user->profile->url }}</a></div>
                 </div>
                 <div class="col-3">
                     @can ('update', $user->profile)
@@ -67,14 +67,14 @@
                     <div id="dhs_profile1">
                         <div class="pt-2 font-weight-bold">{{ $user->profile->title }}</div>
                         <div>{{ $user->profile->description }}</div>
-                        <div><a href="https://{{ $user->profile->url }}" class="dhs_link">{{ $user->profile->url }}</a></div>
+                        <div><a href="{{ $user->profile->url }}" target="_blank" class="dhs_link">{{ $user->profile->url }}</a></div>
                     </div>
                 </div>
             </div>
             <div class="pb-3" id="dhs_profile2">
                 <div class="pt-2 font-weight-bold">{{ $user->profile->title }}</div>
                 <div>{{ $user->profile->description }}</div>
-                <div><a href="https://{{ $user->profile->url }}" class="dhs_link">{{ $user->profile->url }}</a></div>
+                <div><a href="{{ $user->profile->url }}" target="_blank" class="dhs_link">{{ $user->profile->url }}</a></div>
             </div>
             <div class="row" id="dhs_bottom-btn">
                 @can ('update', $user->profile)
@@ -102,7 +102,7 @@
                 <div class="col-6">
                     <div class="d-flex justify-content-start align-items-center">
                         <h5 class="pr-3 dhs_h5">{{ $profile->username }}</h5>
-                        <a href="https://instagram.com/deckideckidecki" target="_blank" class="btn btn-sm btn-info dhs_btn-text-white">
+                        <a href="https://instagram.com/decki.id" target="_blank" class="btn btn-sm btn-info dhs_btn-text-white">
                             Follow Me on Instagram
                         </a>
                     </div>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="pt-2 font-weight-bold">{{ $profile->name }}</div>
                     <div>{{ $profile->biography }}</div>
-                    <div><a href="{{ $profile->website }}" class="dhs_link">{{ $profile->website }}</a></div>
+                    <div><a href="{{ $profile->website }}" target="_blank" class="dhs_link">{{ $profile->website }}</a></div>
                 </div>
             </div>
             <div class="py-3" id="dhs_row-responsive">
@@ -139,19 +139,19 @@
                     <div id="dhs_profile1">
                         <div class="pt-2 font-weight-bold">{{ $profile->name }}</div>
                         <div>{{ $profile->biography }}</div>
-                        <div><a href="{{ $profile->website }}" class="dhs_link">{{ $profile->website }}</a></div>
+                        <div><a href="{{ $profile->website }}" target="_blank" class="dhs_link">{{ $profile->website }}</a></div>
                     </div>
                 </div>
             </div>
             <div class="pb-3" id="dhs_profile2">
                 <div class="pt-2 font-weight-bold">{{ $profile->name }}</div>
                 <div>{{ $profile->biography }}</div>
-                <div><a href="{{ $profile->website }}" class="dhs_link">{{ $profile->website }}</a></div>
+                <div><a href="{{ $profile->website }}" target="_blank" class="dhs_link">{{ $profile->website }}</a></div>
             </div>
             @if(Request::segment(2) == 'instagram-api')
                 <div class="row" id="dhs_bottom-btn">
                     <div class="col">
-                        <a href="https://instagram.com/deckideckidecki" target="_blank" class="form-control btn btn-info dhs_btn-text-white">
+                        <a href="https://instagram.com/decki.id" target="_blank" class="form-control btn btn-info dhs_btn-text-white">
                             Follow Me on Instagram
                         </a>
                     </div>

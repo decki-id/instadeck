@@ -40,8 +40,8 @@
                                 with the Laravel framework and Vue Js example component. <strong>InstaDeck</strong> also built with an API link 
                                 to open the real Instagram account of the creator for presentation purposes only.
                                 <br>Thank you for visiting this project.
-                                <br>See more project portfolio created by <strong>Decki Herdiawan Soepandi</strong> 
-                                <a href="https://deckidecki.com/portfolios">here</a>.
+                                <br>See more project portfolios created by <strong>Decki Herdiawan Soepandi</strong> 
+                                <a href="https://decki.id/projects" target="_blank">here</a>.
                             </p>
                         </div>
                     </div>
