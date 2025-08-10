@@ -8,7 +8,9 @@ COPY --chown=root:root . .
 
 RUN chmod -R 755 .
 
-RUN apk add --no-cache unzip tzdata && ln -sf /usr/share/zoneinfo/$TZ /etc/localtime
+RUN apk add --no-cache unzip php-mysqli php-pdo_mysql tzdata
+
+RUN ln -sf /usr/share/zoneinfo/$TZ /etc/localtime
 
 RUN unzip -o vendor.zip -d . && unzip -o node_modules.zip -d .
 
