@@ -12,6 +12,8 @@ RUN apk add --no-cache unzip tzdata && ln -sf /usr/share/zoneinfo/$TZ /etc/local
 
 RUN unzip -o vendor.zip -d . && unzip -o node_modules.zip -d .
 
+RUN php artisan storage:link
+
 EXPOSE 8000
 
-CMD ["php", "artisan", "storage:link", "&&", "php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
