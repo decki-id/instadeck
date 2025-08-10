@@ -27,9 +27,9 @@ class InstadeckSearchController extends Controller
 
         $data = User::join('instadeck_profiles', 'users.id', '=', 'instadeck_profiles.user_id')
                     ->where('users.username', 'like', "%{$search}%")
-                    ->where('instadeck_profiles.title', 'like', "%{$search}%")
+                    ->orwhere('instadeck_profiles.title', 'like', "%{$search}%")
                     ->orwhere('users.fullname', 'like', "%{$search}%")
-                    ->where('instadeck_profiles.title', 'like', "%{$search}%")
+                    ->orwhere('instadeck_profiles.title', 'like', "%{$search}%")
                     ->with('profile')->get();
 
         $user = json_decode($data);
