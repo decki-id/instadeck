@@ -44,8 +44,8 @@
                     @error('url')<span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>@enderror
                 </div>
                 <div class="form-group row">
-                    <label for="image" class="col-form-label">{{ __('Profile Image') }}</label>
-                    <input type="file" class="form-control-file @error('image') is-invalid @enderror" id="image" name="image">
+                    <label for="edit-image" class="col-form-label">{{ __('Profile Image') }}</label>
+                    <input type="file" class="form-control-file @error('image') is-invalid @enderror" id="edit-image" name="edit-image">
                     @error('image')<strong>{{ $message }}</strong>@enderror
                 </div>
                 <div class="form-group row pt-3">
