@@ -24,7 +24,7 @@
     <link href="{{ url('css/instadeck.css') }}" rel="stylesheet">
 </head>
 <body class="bg-instagram">
-    <div class="row w-100 mx-0" id="app">
+    <div class="row justify-content-center align-items-center min-vh-100 w-100 mx-0" id="app">
         <div class="col-lg-6">
             <div class="dhs_auth-page">
                 <div class="container">
