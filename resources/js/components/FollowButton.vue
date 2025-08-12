@@ -25,14 +25,14 @@ export default {
   methods: {
     followUser() {
       axios
-        .post("/instadeck/follow/" + this.userId)
+        .post("/follow/" + this.userId)
         .then((response) => {
           this.status = !this.status;
           console.log(response.data);
         })
         .catch((errors) => {
           if (errors.response.status == 401) {
-            window.location = "/instadeck/login";
+            window.location = "/login";
           }
         });
     },

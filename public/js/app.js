@@ -1932,12 +1932,12 @@ __webpack_require__.r(__webpack_exports__);
     followUser: function followUser() {
       var _this = this;
 
-      axios.post("/instadeck/follow/" + this.userId).then(function (response) {
+      axios.post("/follow/" + this.userId).then(function (response) {
         _this.status = !_this.status;
         console.log(response.data);
       })["catch"](function (errors) {
         if (errors.response.status == 401) {
-          window.location = "/instadeck/login";
+          window.location = "/login";
         }
       });
     }
@@ -1982,12 +1982,12 @@ __webpack_require__.r(__webpack_exports__);
     followUser: function followUser() {
       var _this = this;
 
-      axios.post("/instadeck/follow/" + this.userId).then(function (response) {
+      axios.post("/follow/" + this.userId).then(function (response) {
         _this.status = !_this.status;
         console.log(response.data);
       })["catch"](function (errors) {
         if (errors.response.status == 401) {
-          window.location = "/instadeck/login";
+          window.location = "/login";
         }
       });
     }
