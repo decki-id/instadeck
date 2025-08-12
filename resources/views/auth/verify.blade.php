@@ -1,4 +1,4 @@
-@extends('/instadeck/auth/main')
+@extends('/auth/main')
 
 @section('content')
 <div class="container">
