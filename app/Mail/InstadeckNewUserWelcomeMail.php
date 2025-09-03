@@ -28,6 +28,6 @@ class InstadeckNewUserWelcomeMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('instadeck/emails/welcome-email');
+        return $this->markdown('/emails/welcome-email');
     }
 }
