@@ -16,7 +16,7 @@
                     <div class="dhs_search-result">
                         <div class="pr-3">
                             <a href="/profile/{{ $users->username }}" class="dhs_link-dark">
-                                <img src="/storage/{{ $users->profile->image ? $users->profile->image : 'profile/default_user.png' }}" class="rounded-circle dhs_pp-post-detail">
+                                <img src="/storage/{{ $users->profile?->image ? $users->profile?->image : 'profile/default_user.png' }}" class="rounded-circle dhs_pp-post-detail">
                             </a>
                         </div>
                         <div>
